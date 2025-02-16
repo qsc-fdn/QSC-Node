@@ -1,0 +1,1 @@
+docker run -d -p 19009:19009 -p 19001:19001 -v ./data:/root/.qsc -it qscnode:latest bash -c "bash start.sh"
